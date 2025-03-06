@@ -24,7 +24,7 @@ public class RegisterController {
             return ResponseEntity.ok(registerObj);
         }
         else{
-            return ResponseEntity.status(HttpStatus.NOT_FOUND).body("user not found");
+            return ResponseEntity.status(HttpStatus.NOT_FOUND).body("user not founds");
         }
     }
 
